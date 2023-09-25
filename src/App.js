@@ -1,15 +1,15 @@
 import { useCallback, useEffect, useState } from "react";
 import Particles from "react-particles";
 import { loadSlim } from "tsparticles-slim";
-import image from './images/cmyk-inspiration-creative-colours-graphics(1).jpg'
-import image2 from './images/abstract-paint-splashing-vibr.jpg'
-import image3 from './images/inkjet-printer-head-working-vinyl-banner.jpg'
+import image from './images/cmyk-inspiration-creative-colours-graphics.jpg'
+import image2 from './images/abstract-paint-splashing-vibrant-colors-liquid-motion-generated-by-ai.jpg'
+import image3 from './images/industrial-printing-modern-digital-inkjet-printer-industrial-printing-modern-digital-inkjet-printer.jpg'
 import image4 from './images/large-format-inkjet-printer-wor.jpg'
 import image5 from './images/modern-manufacturing-equipm.jpg'
 import image6 from './images/modern-printing-press-creates-.jpg'
 import image7 from './images/modern-printing-press-produces.jpg'
 import image8 from './images/still-life-cmyk-toners-composition.jpg'
-import image9 from './images/wide-format-inkjet-printer-prin.jpg'
+import image9 from './images/abstract-colorful-splash-3d-.jpg'
 import image1 from './images/choice.png'
 import Carousel from 'react-bootstrap/Carousel'
 import {BiMenuAltRight} from 'react-icons/bi'
