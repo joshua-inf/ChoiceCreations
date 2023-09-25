@@ -134,7 +134,7 @@ const App = () => {
         }}
       />
       <div style={{ position: 'fixed', top: 0, bottom: 0, right: 0, left: 0, zIndex: -1 }}>
-      <Carousel fade>
+      <Carousel fade controls={false}>
       <Carousel.Item>
       <img src={image} className="d-block w-100" alt='...' />
       </Carousel.Item>
