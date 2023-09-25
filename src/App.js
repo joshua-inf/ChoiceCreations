@@ -1,14 +1,17 @@
 import { useCallback, useEffect, useState } from "react";
 import Particles from "react-particles";
-//import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
-import { loadSlim } from "tsparticles-slim"; // if you are going to use `loadSlim`, install the "tsparticles-slim" package too.
-import image from './images/banner-with-blue-orange-balls-generative-al.jpg'
-import image2 from './images/abstract-colorful-splash-3d-.jpg'
-import image3 from './images/d-printouts-accurately-generated-by-ai.jpg'
+import { loadSlim } from "tsparticles-slim";
+import image from './images/cmyk-inspiration-creative-colours-graphics(1).jpg'
+import image2 from './images/abstract-paint-splashing-vibr.jpg'
+import image3 from './images/inkjet-printer-head-working-vinyl-banner.jpg'
+import image4 from './images/large-format-inkjet-printer-wor.jpg'
+import image5 from './images/modern-manufacturing-equipm.jpg'
+import image6 from './images/modern-printing-press-creates-.jpg'
+import image7 from './images/modern-printing-press-produces.jpg'
+import image8 from './images/still-life-cmyk-toners-composition.jpg'
+import image9 from './images/wide-format-inkjet-printer-prin.jpg'
 import image1 from './images/choice.png'
-import {BsFacebook} from 'react-icons/bs'
 import Carousel from 'react-bootstrap/Carousel'
-import {AiFillInstagram} from 'react-icons/ai'
 import {BiMenuAltRight} from 'react-icons/bi'
 
 const App = () => {
@@ -29,7 +32,6 @@ const App = () => {
   }, []);
 
   const checknav = async () =>{
-    let value = await setNavs(!navs)
     
      if(!navs){
     document.getElementById('sidenav').style.width = '300px'
@@ -134,13 +136,31 @@ const App = () => {
       <div style={{ position: 'fixed', top: 0, bottom: 0, right: 0, left: 0, zIndex: -1 }}>
       <Carousel fade>
       <Carousel.Item>
-      <img src={image} className="d-block w-100" />
+      <img src={image} className="d-block w-100" alt='...' />
       </Carousel.Item>
       <Carousel.Item>
-      <img src={image2} className="d-block w-100" />
+      <img src={image2} className="d-block w-100" alt='...' />
       </Carousel.Item>
       <Carousel.Item>
-      <img src={image3} className="d-block w-100" />
+      <img src={image3} className="d-block w-100" alt='...' />
+      </Carousel.Item>
+      <Carousel.Item>
+      <img src={image4} className="d-block w-100" alt='...' />
+      </Carousel.Item>
+      <Carousel.Item>
+      <img src={image5} className="d-block w-100" alt='...' />
+      </Carousel.Item>
+      <Carousel.Item>
+      <img src={image6} className="d-block w-100" alt='...' />
+      </Carousel.Item>
+      <Carousel.Item>
+      <img src={image7} className="d-block w-100" alt='...' />
+      </Carousel.Item>
+      <Carousel.Item>
+      <img src={image8} className="d-block w-100" alt='...' />
+      </Carousel.Item>
+      <Carousel.Item>
+      <img src={image9} className="d-block w-100" alt='...' />
       </Carousel.Item>
     </Carousel>
       {/* <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -168,7 +188,7 @@ const App = () => {
           <div className="d-flex justify-content-center flex-column">
             <div style={{backgroundColor:'rgba(0,0,0,0.6)', padding:'40px', borderRadius:'30px', zIndex:1}}>
               <div style={{ textAlign: 'center' }}>
-                <img src={image1} width='600px' />
+                <img src={image1} width='600px' alt='...' />
               </div>
               <div className="d-flex justify-content-center">
                 <div className="d-flex" style={{ gap: '20px', marginLeft: 'auto', marginRight: 'auto' }}>
