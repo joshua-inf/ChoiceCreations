@@ -11,3 +11,22 @@
 .navs {
   transition: ease 0.5s;
 }
+
+.mynav  a { 
+  color: white;
+  text-decoration: none;
+  padding: 0px 20px;
+  font-weight: 700;
+}
+.links a:hover {
+ color: turquoise;
+}
+.links a {
+  transition: all 0.5s;
+}
+.mynav-cont {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
