@@ -51,7 +51,7 @@ const App = () => {
 
 
   useEffect(() => {
-    const targetDate = new Date('October 30 2023 00:00:00')
+    const targetDate = new Date('November 30 2023 00:00:00')
     const updateDate = () => {
       const currentTime = new Date();
       const diff = targetDate - currentTime;
