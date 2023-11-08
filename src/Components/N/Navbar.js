@@ -8,11 +8,11 @@ const Nav = () => {
                 <img src={logo}  width='200px'/>
             </Link>
             <div className='links'>
-                <Link>Home</Link>
+                <Link to='/'>Home</Link>
                 <Link>What We Do</Link>
                 <Link>Our Portfolio</Link>
                 <Link>Our Products</Link>
-                <Link>Contact Us</Link>
+                <Link to='/ContactUs'>Contact Us</Link>
             </div>
         </div>
         </div>

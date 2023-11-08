@@ -17,6 +17,7 @@ import Home from "./Components/Home";
 import Nav from "./Components/N/Navbar";
 import { BrowserRouter } from "react-router-dom";
 import Footer from "./Components/N/footer";
+import Renderer from "./Renderer";
 
 const App = () => {
   const [ready, setReady] = useState(false)
@@ -71,13 +72,7 @@ const App = () => {
 
   if (ready) {
     return (
-      <BrowserRouter>
-        <div className="bg-dark">
-          <Nav />
-          <Home />
-          <Footer/>
-        </div>
-      </BrowserRouter>
+      <Renderer/>
     )
   } else {
     return (
