@@ -3,7 +3,7 @@ import Particles from "react-particles";
 import { loadSlim } from "tsparticles-slim";
 import image from './images/cmyk-inspiration-creative-colours-graphics.jpg'
 import image2 from './images/abstract-paint-splashing-vibrant-colors-liquid-motion-generated-by-ai.jpg'
-import image3 from './images/industrial-printing-modern-digital-inkjet-printer-industrial-printing-modern-digital-inkjet-printer.jpg'
+import image3 from './images/industrial-printin.jpg'
 import image4 from './images/large-format-inkjet-printer-wor.jpg'
 import image5 from './images/modern-manufacturing-equipm.jpg'
 import image6 from './images/modern-printing-press-creates-.jpg'
