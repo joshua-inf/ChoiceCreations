@@ -30,3 +30,56 @@
   width: 100%;
   background-color: rgba(0,0,0,0.5);
 }
+
+/* styling for the input for on contact us page */
+.customForm {
+  margin: 30px 0;
+  padding: 0 5px;
+}
+.customForm .emailinput .input {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  width: 100%;
+  z-index: 4;
+  color: white;
+  height: 40px;
+  font-size: 16px;
+}
+.customForm .emailinput  {
+  border-bottom: 2px solid black;
+  position: relative;
+  padding: 0 5px;
+}
+.customForm .emailinput label {
+  position: absolute;
+  display: flex;
+  left: 5px;
+  z-index: 1;
+  top: 50%;
+  transition: .5s;
+  font-size: 16px;
+  color: #adadad;
+  transform: translateY(-50%);
+}
+
+.customForm .emailinput span::before {
+  content: '';
+  position: absolute;
+  top:40px;
+  left: 0;
+  width: 0%;
+  transition: .5s;
+  height: 2px;
+  background: #2691d9;
+}
+
+.customForm .emailinput input:focus ~ label,
+.customForm .emailinput input:valid ~ label{
+  color: #2691d9;
+  top: -5px;
+}
+.customForm .emailinput input:valid ~ span::before,
+.customForm .emailinput input:focus ~ span::before{
+  width: 100%;
+}

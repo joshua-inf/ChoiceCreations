@@ -7,7 +7,7 @@ const Nav = () => {
             <Link>
                 <img src={logo}  width='200px'/>
             </Link>
-            <div className='links'>
+            <div className='links d-none d-lg-block'>
                 <Link to='/'>Home</Link>
                 <Link>What We Do</Link>
                 <Link>Our Portfolio</Link>
