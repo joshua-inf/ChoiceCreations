@@ -5,7 +5,7 @@ const Contactus = () => {
     const ContactComp = (props) => {
         return (
             <>
-                <div className='col-12 col-sm-4 p-3'>
+                <div className='col-12 p-3'>
                     <div className=''>
                         <props.icon size={50} />
                         <div style={{ lineHeight: '18px' }}>
@@ -35,19 +35,26 @@ const Contactus = () => {
                             <div className='d-flex mb-5 justify-content-center'>
                                 <div style={{ height: '5px', width: '30px', backgroundColor: 'white' }}></div>
                             </div>
-                            <div className='p-3 my-5'>
-                                <div style={{}} className='row' >
-                                    <ContactComp icon={MdPhoneInTalk} title='Phone' values={['+260 988 888 888', '+260 988 888 888', '+260 988 888 888']} />
-                                    <ContactComp icon={MdOutlineLocationOn} title='Location' values={['P.O.Box 670000', 'Plot #119, Kaonga', 'Mazabuka, Zambia']} />
-                                    <ContactComp icon={MdEmail} title='Email' values={['choicecreationsltd@gmail.com']} />
-                                </div>
-                            </div>
+
                         </div>
 
                         <div className='p-3 mt-5'>
                             <div className='row'>
                                 <div className='col-1'></div>
-                                <div className='col-md-10 col-12 d-flex flex-column justify-content-center' style={{ minHeight: '75vh' }}>
+                                <div className='col-10'>
+                                    <div className='row'>
+                                        <div className='col-md-3 col-12'>
+                                            {/* this is wher the icons go for the contacts i.e email, phone number or written locatios */}
+                                            <div className='p-3 my-5 text-center'>
+                                                <div style={{}} className='row' >
+                                                    <ContactComp icon={MdPhoneInTalk} title='Phone' values={['+260 988 888 888', '+260 988 888 888', '+260 988 888 888']} />
+                                                    <ContactComp icon={MdOutlineLocationOn} title='Location' values={['P.O.Box 670000', 'Plot #119, Kaonga', 'Mazabuka, Zambia']} />
+                                                    <ContactComp icon={MdEmail} title='Email' values={['choicecreationsltd@gmail.com']} />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className='col-12 col-md-9 '>
+                                        <div className='d-flex flex-column justify-content-center' style={{ minHeight: '75vh' }}>
                                     <div className='text-center my-5'>
                                         <h3>Do you have any questions to ask please let us know.</h3>
                                     </div>
@@ -90,6 +97,10 @@ const Contactus = () => {
                                         </div>
                                     </form>
                                 </div>
+                                        </div>
+                                    </div>
+                                </div>
+                               
                                 <div className='col-1'></div>
                             </div>
                         </div>

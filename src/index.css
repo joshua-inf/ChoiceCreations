@@ -28,8 +28,27 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgba(0,0,0,0.5);
+  transition: 0.5s;
 }
+
+.mycontbackg{
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: 0.8s;
+  
+}
+.mycontbackg2{
+  background-color: rgb(0,0,0);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: 0.8s;
+}
+
+
+
 
 /* styling for the input for on contact us page */
 .customForm {
