@@ -86,48 +86,51 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div style={{ minHeight: '100vh', paddingBlock: '100px' }}>
+                    <div style={{ minHeight: '100vh' }}>
                         <div className='row'>
                             <div className='col-12 col-md-6'>
-                                <h1 className='display-5 fw-bold'>
-                                    Our <span style={{ color: 'magenta' }}>Vision</span>
-                                </h1>
-                                <p className='py-4 fw-bold'>
-                                    To be a business that provides creative solutions to businesses and individuals; To stand out in
-                                    quality and excellence in service delivery; To leave our customers
-                                    happy by exceeding their expectations; And to contribute to a growing and thriving community.
-                                </p>
-                            </div>
-                            <div className='col-12 col-md-6'>
-                                <h1 className='display-5 fw-bold'>
-                                    Our <span style={{ color: 'magenta' }}>Mission</span>
-                                </h1>
-                                <p className='py-4 fw-bold'>
-                                    To enable people, businesses and communities to grow, thrive and find convenience
-                                    and value in our products and services.
-                                </p>
-                            </div>
-                            <div className='col-md-6 col-12'>
-                                <h1 className='display-5 fw-bold'>
-                                    Our <span style={{ color: 'magenta' }}>Values</span>
-                                </h1>
-                                <p className='py-4 fw-bold'>
-                                    Our values derive from “enabling our customers”. At Choice Creations, you will find us focused and attentive;
-                                    we listen well and we engage. We are also agile; market, technology and needs are not static so we “move with
-                                    your needs”. We strongly believe that trust is a vital element
-                                    in all relationships we build and being trustworthy leads to confidence and cooperation.
-                                </p>
-                                <p className='fw-bold'>
-                                    To live up to our values, Choice Creations demonstrate a set of behavioral attributes (FOCUS):
-                                </p>
-                                <div className='fw-bold'>
-                                    <span style={{ color: 'magenta' }}>F</span> = Fresh <br />
-                                    <span style={{ color: 'magenta' }}>O</span> = Organized <br />
-                                    <span style={{ color: 'magenta' }}>C</span> = Creative <br />
-                                    <span style={{ color: 'magenta' }}>U</span> = Upbeat <br />
-                                    <span style={{ color: 'magenta' }}>S</span> = Sincere
+                                <div className='col-12'>
+                                    <h1 className='display-5 fw-bold'>
+                                        Our <span style={{ color: 'magenta' }}>Vision</span>
+                                    </h1>
+                                    <p className='py-4 fw-bold'>
+                                        To be a business that provides creative solutions to businesses and individuals; To stand out in
+                                        quality and excellence in service delivery; To leave our customers
+                                        happy by exceeding their expectations; And to contribute to a growing and thriving community.
+                                    </p>
+                                </div>
+                                <div className='col-12'>
+                                    <h1 className='display-5 fw-bold'>
+                                        Our <span style={{ color: 'magenta' }}>Mission</span>
+                                    </h1>
+                                    <p className='py-4 fw-bold'>
+                                        To enable people, businesses and communities to grow, thrive and find convenience
+                                        and value in our products and services.
+                                    </p>
+                                </div>
+                                <div className='col-12'>
+                                    <h1 className='display-5 fw-bold'>
+                                        Our <span style={{ color: 'magenta' }}>Values</span>
+                                    </h1>
+                                    <p className='py-4 fw-bold'>
+                                        Our values derive from “enabling our customers”. At Choice Creations, you will find us focused and attentive;
+                                        we listen well and we engage. We are also agile; market, technology and needs are not static so we “move with
+                                        your needs”. We strongly believe that trust is a vital element
+                                        in all relationships we build and being trustworthy leads to confidence and cooperation.
+                                    </p>
+                                    <p className='fw-bold'>
+                                        To live up to our values, Choice Creations demonstrate a set of behavioral attributes (FOCUS):
+                                    </p>
+                                    <div className='fw-bold'>
+                                        <span style={{ color: 'magenta' }}>F</span> = Fresh <br />
+                                        <span style={{ color: 'magenta' }}>O</span> = Organized <br />
+                                        <span style={{ color: 'magenta' }}>C</span> = Creative <br />
+                                        <span style={{ color: 'magenta' }}>U</span> = Upbeat <br />
+                                        <span style={{ color: 'magenta' }}>S</span> = Sincere
+                                    </div>
                                 </div>
                             </div>
+                            <div className='col-12 col-md-6'></div>
                         </div>
                     </div>
                     <div style={{ minHeight: '100vh', paddingBlock: '100px' }}>
@@ -148,6 +151,7 @@ const Home = () => {
                                         </p>
                                     </div>
                                 </div>
+                                <div className="col-6"></div>
                             </div>
                         </div>
                     </div>
