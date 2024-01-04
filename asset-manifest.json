@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ChoiceCreations/static/css/main.25d49dc8.css",
-    "main.js": "/ChoiceCreations/static/js/main.7914e2f6.js",
+    "main.js": "/ChoiceCreations/static/js/main.5c904733.js",
     "static/js/787.1b35015d.chunk.js": "/ChoiceCreations/static/js/787.1b35015d.chunk.js",
     "static/media/modern-printing-press-creates-.jpg": "/ChoiceCreations/static/media/modern-printing-press-creates-.04dddab0f9a35a0da94b.jpg",
     "static/media/modern-manufacturing-equipm.jpg": "/ChoiceCreations/static/media/modern-manufacturing-equipm.d05f8b61f5c6db7a4aa6.jpg",
@@ -18,11 +18,11 @@
     "static/media/choice.png": "/ChoiceCreations/static/media/choice.35c3a701235339321f52.png",
     "index.html": "/ChoiceCreations/index.html",
     "main.25d49dc8.css.map": "/ChoiceCreations/static/css/main.25d49dc8.css.map",
-    "main.7914e2f6.js.map": "/ChoiceCreations/static/js/main.7914e2f6.js.map",
+    "main.5c904733.js.map": "/ChoiceCreations/static/js/main.5c904733.js.map",
     "787.1b35015d.chunk.js.map": "/ChoiceCreations/static/js/787.1b35015d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.25d49dc8.css",
-    "static/js/main.7914e2f6.js"
+    "static/js/main.5c904733.js"
   ]
 }
