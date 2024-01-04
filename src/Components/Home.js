@@ -1,17 +1,47 @@
 import { Link } from 'react-router-dom';
 import image from '../images/agency6-about-pic2.webp'
 import image1 from '../images/stacking-wooden-blocks-is-risk-creating-business-growth-ideas.jpg'
+import image2 from '../images/abstract-paint-splashing-vibrant-colors-liquid-motion-generated-by-ai.jpg'
 
 
 import { AiOutlineArrowRight } from 'react-icons/ai'
 
 const Home = () => {
     return (
-        <div className='p-3'>
+        <>
+        <div style={{
+            position:'relative',
+            height:'100vh'
+        }}>
+            <div style={{zIndex: 1, position:'absolute',backgroundImage: `url(${image2})`, height: '100%',width:'100%', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}></div>
+            <div style={{ height: '100%', background: `linear-gradient(black 10%,rgba(0,0,0,0) 20%, black)`, height:'100vh', width:'100%',position:'absolute', zIndex: 2}}>
+                <div className='text-white' style={{
+                    justifyContent:'center',
+                    display:'flex',
+                    flexDirection:'column',
+                    height:'100%',
+                    backgroundColor:''
+                    }}>
+                        <div className='px-5'>
+                            <div className='h2'>Welcome to</div>
+                            <dv className="display-1 fw-bold">Choice Creations</dv>
+                            <div>
+                                <div style={{width:'500px'}} className='fs-3'>
+                                We make branding easy, fulfilling and rewarding for you.
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div style={{height:'100vh'}} className='bg-black'>
+
+        </div>
+            {/* <div className='p-3'>
             <div className='text-white row'>
                 <div className='col-1'></div>
                 <div className='col-md-10 col-12'>
-                    <div style={{ minHeight: '100vh' }}>
+                    <div style={{ minHeight: '100vh'}}>
                         <div className='d-flex flex-column p-4 justify-content-center' style={{ minHeight: '100vh', gap: '60px' }}>
                             <div className=''>
                                 <p className='fs-2 text-white fw-bold'>
@@ -158,7 +188,8 @@ const Home = () => {
                 </div>
                 <div className='col-1'></div>
             </div>
-        </div>
+        </div> */}
+        </>
     )
 }
 

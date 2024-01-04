@@ -22,8 +22,8 @@ let status = true;
 window.addEventListener('scroll', changebackground);
 
     return(
-        <div id='' className={`p-3 ${navbar ? 'mycontbackg' : 'mycontbackg2'}`}>
-        <div className='d-flex justify-content-between mynav'  style={{}}>
+        <div id='' className={`p-3 ${navbar ? 'mycontbackg' : 'mycontbackg2'}`} style={{zIndex:4}}>
+        <div className='d-flex justify-content-between mynav'  >
             <Link>
                 <img src={logo}  width='200px'/>
             </Link>
