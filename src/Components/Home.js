@@ -5,38 +5,49 @@ import image2 from '../images/abstract-paint-splashing-vibrant-colors-liquid-mot
 
 
 import { AiOutlineArrowRight } from 'react-icons/ai'
+import FirstComp from './HomeComp/FirstComp';
+import SecondComp from './HomeComp/SecondComp';
 
 const Home = () => {
     return (
         <>
-        <div style={{
-            position:'relative',
-            height:'100vh'
-        }}>
-            <div style={{zIndex: 1, position:'absolute',backgroundImage: `url(${image2})`, height: '100%',width:'100%', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}></div>
-            <div style={{ height: '100%', background: `linear-gradient(black 10%,rgba(0,0,0,0) 20%, black)`, height:'100vh', width:'100%',position:'absolute', zIndex: 2}}>
-                <div className='text-white' style={{
-                    justifyContent:'center',
-                    display:'flex',
-                    flexDirection:'column',
-                    height:'100%',
-                    backgroundColor:''
+            <div style={{
+                position: 'relative',
+                height: '100vh'
+            }}>
+                <div style={{ zIndex: 1, position: 'absolute', backgroundImage: `url(${image2})`, height: '100%', width: '100%', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}></div>
+                <div style={{ height: '100%', background: `linear-gradient(black 10%,rgba(0,0,0,0) 20%, black)`, height: '100vh', width: '100%', position: 'absolute', zIndex: 2 }}>
+                    <div className='text-white' style={{
+                        justifyContent: 'center',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        height: '100%',
+                        backgroundColor: ''
                     }}>
                         <div className='px-5'>
                             <div className='h2'>Welcome to</div>
                             <dv className="display-1 fw-bold">Choice Creations</dv>
                             <div>
-                                <div style={{width:'500px'}} className='fs-3'>
-                                We make branding easy, fulfilling and rewarding for you.
+                                <div style={{}} className=''>
+                                    <p className='fs-5 text-white fw-bold'>
+                                        At te heart of a distinctive brand is its design <span style={{ color: 'turquoise' }}>DNA</span> which is reflected in its
+                                        appearance, both in digital and printed form, creating recognition
+                                        , loyalty and value for its <span style={{ color: 'turquoise' }}>customers</span>
+                                    </p>
                                 </div>
                             </div>
                         </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div style={{height:'100vh'}} className='bg-black'>
+            <div style={{}} className='bg-black'>
+            <FirstComp/>
+            </div>
+            <div>
+                <SecondComp/>
+            </div>
 
-        </div>
+
             {/* <div className='p-3'>
             <div className='text-white row'>
                 <div className='col-1'></div>
