@@ -44,7 +44,7 @@ const Home = () => {
             <FirstComp/>
             </div>
             <div>
-                <SecondComp/>
+            <SecondComp/>
             </div>
 
 
