@@ -1,30 +1,43 @@
-import image from '../../images/agency6-about-pic2.webp'
+import image from '../../images/9019808.jpg'
 
 const FirstComp = () => {
     return (
         <>
-            <div style={{ height: '100vh' }} className=" text-white p-3 d-flex flex-column justify-content-center">
+            <div style={{ minHeight: '100vh', }} className=" text-white p-3 d-flex flex-column justify-content-center">
                 <div className="row">
                     <div className="col-1"></div>
                     <div className="col-10">
                         <div className="row">
-                        <div className='col-6'>
-                                <img src={image} width='100%' /> 
-                            </div>
-                            <div className="col-5">
-                                <div className="display-3 mb-3 fw-bold">Welcome</div>
+                            <div className="col-12 col-md-7">
+                                <div className="display-3 mb-3 fw-bold">WHO WE ARE</div>
                                 <div>
-                                    Ultigraph is coined from two words: Ultimate & Graphics.
-                                    We started with the mindset of rendering ultimate (best) graphic
-                                    design services. With this ‘Ultimate’ mindset we have evolved into
-                                    an agency that provides Innovative Branding solutions for businesses,
-                                    organisations and individuals.
-                                    <br/>
-                                    <div className='my-3'></div>
-                                    Feel at home, Welcome.
+                                    <p>
+                                        Choice Creations Limited is a focused, agile, and trustworthy creative agency that
+                                        offers an extensive range of services to businesses and individuals. We are in love
+                                        with fresh ideas and this also drives our passion to launch top of the range products
+                                        that add value to people and society
+                                    </p>
+                                    <p>
+                                        As a professional team of multi-disciplinary specialists, Choice Creations Limited’s
+                                        experience runs deep in graphic designing, printing, brand development and brand
+                                        positioning, website design and interactive multimedia development, digital
+                                        marketing and advanced search engine marketing. We provide an integrated
+                                        service to enhance our customers’ marketing return and improve the top line. Our
+                                        products and services are modern-touch, robust, and coherent and this is how we
+                                        remain effective. We strongly believe that our success is intertwined with the suc-
+                                        cess of businesses and people we serve.
+                                    </p>
+                                    <p>
+                                        Hence, we understand your requirements and infuse our interaction with innovative
+                                        concepts around strategy, technology, concepts and creative design. By adopting a
+                                        Wow & How approach, we turn your distinct needs into digital reality.
+                                    </p>
+                                    <p>
+                                        We take pride in what we do and we hold high expectations for our work.
+                                    </p>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                     <div className="col-1"></div>

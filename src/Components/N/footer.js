@@ -13,7 +13,7 @@ const Footer = () => {
                                     <div className='d-flex my-3 justify-content-center flex-md-column'>
                                         <img src={image} width='200px' />
                                     </div>
-                                    <div className='d-flex my-3 justify-content-center flex-column'>
+                                    <div className=' d-flex my-3 justify-content-center flex-md-column'>
                                         <div className='text-center d-flex'>
                                             <div>Stay intouch</div>
                                             <div style={{gap:'10px',marginInlineStart:'20px', paddingInlineStart:'20px', borderLeft:'1px solid white'}} className='fs-3 d-flex justify-content-evenly'>
