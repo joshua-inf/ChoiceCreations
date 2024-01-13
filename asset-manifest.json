@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ChoiceCreations/static/css/main.25d49dc8.css",
-    "main.js": "/ChoiceCreations/static/js/main.2691061b.js",
+    "main.js": "/ChoiceCreations/static/js/main.b7151940.js",
     "static/js/787.1b35015d.chunk.js": "/ChoiceCreations/static/js/787.1b35015d.chunk.js",
     "static/media/modern-printing-press-creates-.jpg": "/ChoiceCreations/static/media/modern-printing-press-creates-.04dddab0f9a35a0da94b.jpg",
     "static/media/modern-manufacturing-equipm.jpg": "/ChoiceCreations/static/media/modern-manufacturing-equipm.d05f8b61f5c6db7a4aa6.jpg",
@@ -12,17 +12,20 @@
     "static/media/still-life-cmyk-toners-composition.jpg": "/ChoiceCreations/static/media/still-life-cmyk-toners-composition.6a16678a06dd92f99d4b.jpg",
     "static/media/abstract-paint-splashing-vibrant-colors-liquid-motion-generated-by-ai.jpg": "/ChoiceCreations/static/media/abstract-paint-splashing-vibrant-colors-liquid-motion-generated-by-ai.6186f9e2668ac9deddb1.jpg",
     "static/media/large-format-inkjet-printer-wor.jpg": "/ChoiceCreations/static/media/large-format-inkjet-printer-wor.364311aaed40cea057df.jpg",
+    "static/media/images1.png": "/ChoiceCreations/static/media/images1.d670ce1c832a3a96bdb9.png",
+    "static/media/images2.png": "/ChoiceCreations/static/media/images2.56cbae77b69d58d680f6.png",
+    "static/media/images.png": "/ChoiceCreations/static/media/images.581802b9d8ea66ff875f.png",
     "static/media/9019808.jpg": "/ChoiceCreations/static/media/9019808.b9b2cef0a3a44a3cbb5f.jpg",
     "static/media/agency6-about-pic2.webp": "/ChoiceCreations/static/media/agency6-about-pic2.dbbb4d9ca238afb3867c.webp",
     "static/media/contact-us_36325-2135.webp": "/ChoiceCreations/static/media/contact-us_36325-2135.7af734f41f7fb59884b3.webp",
     "static/media/choice.png": "/ChoiceCreations/static/media/choice.35c3a701235339321f52.png",
     "index.html": "/ChoiceCreations/index.html",
     "main.25d49dc8.css.map": "/ChoiceCreations/static/css/main.25d49dc8.css.map",
-    "main.2691061b.js.map": "/ChoiceCreations/static/js/main.2691061b.js.map",
+    "main.b7151940.js.map": "/ChoiceCreations/static/js/main.b7151940.js.map",
     "787.1b35015d.chunk.js.map": "/ChoiceCreations/static/js/787.1b35015d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.25d49dc8.css",
-    "static/js/main.2691061b.js"
+    "static/js/main.b7151940.js"
   ]
 }
