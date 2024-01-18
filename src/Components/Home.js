@@ -48,7 +48,7 @@ const Home = () => {
                                     </div>
                                 </div>
                                 <div>
-                                    <div style={{ width: '70%' }} className=''>
+                                    <div style={{ width: '' }} className='col'>
                                         <p className='fs-5 text-white '>
                                             We partner with impactful brands to generate meaningful results
                                             while uplifting your mission.

@@ -3,9 +3,9 @@ import image from '../../images/9019808.jpg'
 const FirstComp = () => {
     return (
         <>
-            <div style={{height:'100vh'}}>
+            <div style={{minHeight:'100vh'}}>
                 <div className="p-3 text-white">
-                    <div className="row">
+                    <div className="">
                         <div className="row" style={{ paddingInline: "50px" }}>
                             <div className="col-12 col-md-6">
                                 <div>

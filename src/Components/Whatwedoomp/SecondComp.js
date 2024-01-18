@@ -14,9 +14,9 @@ const SeconComp = () => {
                             <div className="bg-light" style={{ height: '300px', background: `url(${image}) center`, backgroundSize: "cover" }}></div>
                         </div>
                         <div className="col-12 col-md-6">
-                            <div className="bg-dark text-white p-3" style={{ height: '300px' }}>
+                            <div className="bg-dark text-white p-3" style={{ minHeight: '300px' }}>
                                 <div className='text-center h2'>CREATIVE DEISGNS</div>
-                                <div className='text-end fs-4'>
+                                <div className='text-end p-3 fs-4'>
                                     <p>
                                         At the heart of a distinctive brand is its design DNA which is reflected in its
                                         appearance, both in digital and printed form, creating recognition, loyalty and
@@ -28,9 +28,9 @@ const SeconComp = () => {
                     </div>
                     <div className="row">
                         <div className="col-12 col-md-6">
-                            <div className="bg-dark text-white p-3" style={{ height: '300px' }}>
+                            <div className="bg-dark text-white p-3" style={{ minHeight: '300px' }}>
                                 <div className='text-center h2'>BRANDING & PRINTING</div>
-                                <div className='text-end fs-4'>
+                                <div className='text-end p-3 fs-4'>
                                     <p>
                                         Understanding client’s goals is step one. Having the ability to come alongside and
                                         help a brand tell their story, through thought-evoking colors, meaningful design,
@@ -50,9 +50,9 @@ const SeconComp = () => {
                             <div className="bg-light" style={{ height: '300px', background: `url(${image3}) center`, backgroundSize: "cover" }}></div>
                         </div>
                         <div className="col-12 col-md-6">
-                            <div className="bg-dark text-white p-3" style={{ height: '300px' }}>
+                            <div className="bg-dark text-white p-3" style={{ minHeight: '300px' }}>
                                 <div className='text-center h2'>DIGITAL MARKETING</div>
-                                <div className='text-end fs-4'>
+                                <div className='text-end p-3 fs-4'>
                                     <p>
                                         Creating a strategy that encompasses all corners of the web including social,
                                         search, and local is a key component in a business’s plan for success. In order
@@ -64,9 +64,9 @@ const SeconComp = () => {
                     </div>
                     <div className="row">
                         <div className="col-12 col-md-6">
-                            <div className="bg-dark text-white p-3" style={{ height: '300px' }}>
+                            <div className="bg-dark text-white p-3" style={{ minHeight: '300px' }}>
                                 <div className='text-center h2'>PHOTO & VIDEOGRAPHY</div>
-                                <div className='text-end fs-4'>
+                                <div className='text-end p-3 fs-4'>
                                     <p>
                                         The nature of photos and videos make it one of the most impactful tools for lead
                                         generation. In seconds, a business can make a first impression, set
@@ -85,9 +85,9 @@ const SeconComp = () => {
                             <div className="bg-light" style={{ height: '300px', background: `url(${image1}) center`, backgroundSize: "cover" }}></div>
                         </div>
                         <div className="col-12 col-md-6">
-                            <div className="bg-dark text-white p-3" style={{ height: '300px' }}>
+                            <div className="bg-dark text-white p-3" style={{ minHeight: '300px' }}>
                                 <div className='text-center h2'>WEB DEVELOPMENT</div>
-                                <div className='text-end fs-4'>
+                                <div className='text-end p-3 fs-4'>
                                     <p>
                                         "Design isn’t just about proportions, layouts and how information flows. It’s
                                         about creating an experience for people to fall in love with.”
