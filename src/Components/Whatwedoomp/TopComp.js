@@ -28,7 +28,6 @@ const TopComp = () => {
                                                 <div style={{ height: "10px", width: '70%', backgroundColor: 'magenta' }} className=''></div>
                                                 <div style={{ height: "10px", width: '30%' }} className='bg-white'></div>
                                             </div>
-                                            
                                         </div>
                                         <dv className="m-0 p-0">What We Do</dv>
                                     </div>
