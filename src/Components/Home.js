@@ -62,7 +62,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div style={{}} className=''>
+                <div style={{overflow:'hidden'}} className=''>
                     <FirstComp />
                 </div>
                 <div>

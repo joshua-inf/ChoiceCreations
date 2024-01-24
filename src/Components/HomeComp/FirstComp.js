@@ -1,4 +1,4 @@
-import image from '../../images/9019808.jpg'
+import image from '../../images/images.png'
 
 const FirstComp = () => {
     return (
@@ -8,7 +8,7 @@ const FirstComp = () => {
                     <div className="col-1"></div>
                     <div className="col-10">
                         <div className="row">
-                            <div className="col-12 col-md-7">
+                            <div className="col-12 col-md-6">
                                 <div className="display-3 mb-3 fw-bold">WHO WE ARE</div>
                                 <div>
                                     <p>
@@ -35,6 +35,11 @@ const FirstComp = () => {
                                     <p>
                                         We take pride in what we do and we hold high expectations for our work.
                                     </p>
+                                </div>
+                            </div>
+                            <div className='col-12 col-md-6'>
+                                <div >
+                                    <img src={image} style={{width:'150%'}} />
                                 </div>
                             </div>
 
