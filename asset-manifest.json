@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/ChoiceCreations/static/css/main.25d49dc8.css",
-    "main.js": "/ChoiceCreations/static/js/main.88870aaa.js",
+    "main.js": "/ChoiceCreations/static/js/main.1f845ba7.js",
     "static/js/787.1b35015d.chunk.js": "/ChoiceCreations/static/js/787.1b35015d.chunk.js",
     "static/media/modern-manufacturing-equipm.png": "/ChoiceCreations/static/media/modern-manufacturing-equipm.9202d5e2f665516388bf.png",
+    "static/media/images3.png": "/ChoiceCreations/static/media/images3.8287fc9c16096417e8b0.png",
     "static/media/modern-printing-press-creates-.jpg": "/ChoiceCreations/static/media/modern-printing-press-creates-.04dddab0f9a35a0da94b.jpg",
     "static/media/modern-manufacturing-equipm.jpg": "/ChoiceCreations/static/media/modern-manufacturing-equipm.d05f8b61f5c6db7a4aa6.jpg",
     "static/media/modern-printing-press-produces.jpg": "/ChoiceCreations/static/media/modern-printing-press-produces.8874789c6d960622f2e4.jpg",
@@ -21,11 +22,11 @@
     "static/media/choice.png": "/ChoiceCreations/static/media/choice.35c3a701235339321f52.png",
     "index.html": "/ChoiceCreations/index.html",
     "main.25d49dc8.css.map": "/ChoiceCreations/static/css/main.25d49dc8.css.map",
-    "main.88870aaa.js.map": "/ChoiceCreations/static/js/main.88870aaa.js.map",
+    "main.1f845ba7.js.map": "/ChoiceCreations/static/js/main.1f845ba7.js.map",
     "787.1b35015d.chunk.js.map": "/ChoiceCreations/static/js/787.1b35015d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.25d49dc8.css",
-    "static/js/main.88870aaa.js"
+    "static/js/main.1f845ba7.js"
   ]
 }
