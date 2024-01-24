@@ -1,9 +1,12 @@
+import image from '../../images/images3.png'
 const TopComp = () => {
     return (
         <>
              <div style={{
                     position: 'relative',
-                    height: '100vh'
+                    height: '100vh',
+                    background:`url(${image}) center`,
+                    backgroundSize:'cover'
                 }}>
                     <div style={{ zIndex: 1, position: 'absolute', backgroundImage: ``, height: '100%', width: '100%', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}></div>
                     <div style={{ height: '100%',
