@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import image from '../images/agency6-about-pic2.webp'
+import image from '../images/modern-manufacturing-equipm.png'
 import image1 from '../images/9019808.jpg'
 import image2 from '../images/modern-manufacturing-equipm.jpg'
 
@@ -21,7 +21,8 @@ const Home = () => {
                     <div style={{ zIndex: 1, position: 'absolute', backgroundImage: ``, height: '100%', width: '100%', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}></div>
                     <div style={{
                         height: '100%',
-                        //  background: `linear-gradient(black 10%,rgba(0,0,0,0) 20%, black)`,
+                        background:`url(${image}) center`,
+                        backgroundSize:'cover',
                         height: '100vh', width: '100%', position: 'absolute', zIndex: 2
                     }}>
                         <div className='text-white' style={{
