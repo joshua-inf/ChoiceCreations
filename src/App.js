@@ -52,7 +52,7 @@ const App = () => {
 
 
   useEffect(() => {
-    const targetDate = new Date('January 30 2024 00:00:00')
+    const targetDate = new Date('February 28 2024 00:00:00')
     const updateDate = () => {
       const currentTime = new Date();
       const diff = targetDate - currentTime;
@@ -202,7 +202,7 @@ const App = () => {
             <div className="d-flex justify-content-center flex-column">
               <div style={{ backgroundColor: 'rgba(0,0,0,0.6)', padding: '40px', borderRadius: '30px', zIndex: 1 }}>
                 <div style={{ textAlign: 'center' }}>
-                  <img src={image1} width='600px' alt='...' />
+                  <img src={image1} width='70%' alt='...' />
                 </div>
                 <div className="d-flex justify-content-center">
                   <div className="d-flex" style={{ gap: '20px', marginLeft: 'auto', marginRight: 'auto' }}>
