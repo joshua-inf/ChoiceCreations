@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ChoiceCreations/static/css/main.25d49dc8.css",
-    "main.js": "/ChoiceCreations/static/js/main.4598bb6e.js",
+    "main.js": "/ChoiceCreations/static/js/main.78453a94.js",
     "static/js/787.1b35015d.chunk.js": "/ChoiceCreations/static/js/787.1b35015d.chunk.js",
     "static/media/images3.png": "/ChoiceCreations/static/media/images3.51cdc5fd1cb12d860827.png",
     "static/media/images.png": "/ChoiceCreations/static/media/images.3a921d1b2bb82726b7be.png",
@@ -16,17 +16,18 @@
     "static/media/images1.png": "/ChoiceCreations/static/media/images1.d670ce1c832a3a96bdb9.png",
     "static/media/modern-printing-press-creates-.jpg": "/ChoiceCreations/static/media/modern-printing-press-creates-.84b64ac8543ca736eee0.jpg",
     "static/media/images2.png": "/ChoiceCreations/static/media/images2.56cbae77b69d58d680f6.png",
+    "static/media/sssssss.png": "/ChoiceCreations/static/media/sssssss.581802b9d8ea66ff875f.png",
     "static/media/still-life-cmyk-toners-composition.jpg": "/ChoiceCreations/static/media/still-life-cmyk-toners-composition.ff9a17c779f77b41d64d.jpg",
     "static/media/9019808.jpg": "/ChoiceCreations/static/media/9019808.0e3bb5fa3c0b55dc4c68.jpg",
     "static/media/contact-us_36325-2135.webp": "/ChoiceCreations/static/media/contact-us_36325-2135.7af734f41f7fb59884b3.webp",
     "static/media/choice.png": "/ChoiceCreations/static/media/choice.35c3a701235339321f52.png",
     "index.html": "/ChoiceCreations/index.html",
     "main.25d49dc8.css.map": "/ChoiceCreations/static/css/main.25d49dc8.css.map",
-    "main.4598bb6e.js.map": "/ChoiceCreations/static/js/main.4598bb6e.js.map",
+    "main.78453a94.js.map": "/ChoiceCreations/static/js/main.78453a94.js.map",
     "787.1b35015d.chunk.js.map": "/ChoiceCreations/static/js/787.1b35015d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.25d49dc8.css",
-    "static/js/main.4598bb6e.js"
+    "static/js/main.78453a94.js"
   ]
 }
