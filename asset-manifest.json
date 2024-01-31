@@ -1,32 +1,32 @@
 {
   "files": {
     "main.css": "/ChoiceCreations/static/css/main.25d49dc8.css",
-    "main.js": "/ChoiceCreations/static/js/main.5ce744a5.js",
+    "main.js": "/ChoiceCreations/static/js/main.4598bb6e.js",
     "static/js/787.1b35015d.chunk.js": "/ChoiceCreations/static/js/787.1b35015d.chunk.js",
-    "static/media/modern-manufacturing-equipm.png": "/ChoiceCreations/static/media/modern-manufacturing-equipm.9202d5e2f665516388bf.png",
-    "static/media/images3.png": "/ChoiceCreations/static/media/images3.8287fc9c16096417e8b0.png",
-    "static/media/modern-printing-press-creates-.jpg": "/ChoiceCreations/static/media/modern-printing-press-creates-.04dddab0f9a35a0da94b.jpg",
-    "static/media/modern-manufacturing-equipm.jpg": "/ChoiceCreations/static/media/modern-manufacturing-equipm.d05f8b61f5c6db7a4aa6.jpg",
-    "static/media/modern-printing-press-produces.jpg": "/ChoiceCreations/static/media/modern-printing-press-produces.8874789c6d960622f2e4.jpg",
+    "static/media/images3.png": "/ChoiceCreations/static/media/images3.51cdc5fd1cb12d860827.png",
     "static/media/images.png": "/ChoiceCreations/static/media/images.3a921d1b2bb82726b7be.png",
-    "static/media/industrial-printin.jpg": "/ChoiceCreations/static/media/industrial-printin.54adfe1d90436193641b.jpg",
-    "static/media/abstract-colorful-splash-3d-.jpg": "/ChoiceCreations/static/media/abstract-colorful-splash-3d-.005bcedd9e2978ea05b8.jpg",
-    "static/media/cmyk-inspiration-creative-colours-graphics.jpg": "/ChoiceCreations/static/media/cmyk-inspiration-creative-colours-graphics.9e5fc15f9b2c2035eb1c.jpg",
-    "static/media/still-life-cmyk-toners-composition.jpg": "/ChoiceCreations/static/media/still-life-cmyk-toners-composition.6a16678a06dd92f99d4b.jpg",
-    "static/media/abstract-paint-splashing-vibrant-colors-liquid-motion-generated-by-ai.jpg": "/ChoiceCreations/static/media/abstract-paint-splashing-vibrant-colors-liquid-motion-generated-by-ai.6186f9e2668ac9deddb1.jpg",
-    "static/media/large-format-inkjet-printer-wor.jpg": "/ChoiceCreations/static/media/large-format-inkjet-printer-wor.364311aaed40cea057df.jpg",
+    "static/media/modern-manufacturing-equipm.png": "/ChoiceCreations/static/media/modern-manufacturing-equipm.7e13cf920a8ad2c19682.png",
+    "static/media/industrial-printin.jpg": "/ChoiceCreations/static/media/industrial-printin.ca461047952bd4df3bac.jpg",
+    "static/media/cmyk-inspiration-creative-colours-graphics.jpg": "/ChoiceCreations/static/media/cmyk-inspiration-creative-colours-graphics.5ffd936c1f0159c22601.jpg",
+    "static/media/abstract-colorful-splash-3d-.jpg": "/ChoiceCreations/static/media/abstract-colorful-splash-3d-.163fdd46404b4410a487.jpg",
+    "static/media/abstract-paint-splashing-vibrant-colors-liquid-motion-generated-by-ai.jpg": "/ChoiceCreations/static/media/abstract-paint-splashing-vibrant-colors-liquid-motion-generated-by-ai.256443037555487a3631.jpg",
+    "static/media/large-format-inkjet-printer-wor.jpg": "/ChoiceCreations/static/media/large-format-inkjet-printer-wor.af24cc9536f7a39eb833.jpg",
+    "static/media/modern-manufacturing-equipm.jpg": "/ChoiceCreations/static/media/modern-manufacturing-equipm.a400ed766eef677d3d2c.jpg",
+    "static/media/modern-printing-press-produces.jpg": "/ChoiceCreations/static/media/modern-printing-press-produces.61716cd9b89c8f1e8d80.jpg",
     "static/media/images1.png": "/ChoiceCreations/static/media/images1.d670ce1c832a3a96bdb9.png",
+    "static/media/modern-printing-press-creates-.jpg": "/ChoiceCreations/static/media/modern-printing-press-creates-.84b64ac8543ca736eee0.jpg",
     "static/media/images2.png": "/ChoiceCreations/static/media/images2.56cbae77b69d58d680f6.png",
-    "static/media/9019808.jpg": "/ChoiceCreations/static/media/9019808.b9b2cef0a3a44a3cbb5f.jpg",
+    "static/media/still-life-cmyk-toners-composition.jpg": "/ChoiceCreations/static/media/still-life-cmyk-toners-composition.ff9a17c779f77b41d64d.jpg",
+    "static/media/9019808.jpg": "/ChoiceCreations/static/media/9019808.0e3bb5fa3c0b55dc4c68.jpg",
     "static/media/contact-us_36325-2135.webp": "/ChoiceCreations/static/media/contact-us_36325-2135.7af734f41f7fb59884b3.webp",
     "static/media/choice.png": "/ChoiceCreations/static/media/choice.35c3a701235339321f52.png",
     "index.html": "/ChoiceCreations/index.html",
     "main.25d49dc8.css.map": "/ChoiceCreations/static/css/main.25d49dc8.css.map",
-    "main.5ce744a5.js.map": "/ChoiceCreations/static/js/main.5ce744a5.js.map",
+    "main.4598bb6e.js.map": "/ChoiceCreations/static/js/main.4598bb6e.js.map",
     "787.1b35015d.chunk.js.map": "/ChoiceCreations/static/js/787.1b35015d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.25d49dc8.css",
-    "static/js/main.5ce744a5.js"
+    "static/js/main.4598bb6e.js"
   ]
 }
