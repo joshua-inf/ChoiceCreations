@@ -4,7 +4,7 @@ const FirstComp = () => {
     return (
         <>
             <div style={{minHeight:'70vh'}}>
-                <div className="p-3 text-white">
+                <div className="px-3 text-white">
                     <div className="">
                         <div className="row" style={{ paddingInline: "50px" }}>
                             <div className="col-12 col-md-6">
