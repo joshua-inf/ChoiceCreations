@@ -13,7 +13,7 @@ const SeconComp = () => {
                         <div className="bg-light" style={{ height: '100%', background: `url(${props.image}) center`, backgroundSize: "cover" }}></div>
                     </div>
                     <div className="col-12  col-md-6">
-                        <div className='bg-dark d-flex flex-column justify-content-center ' style={{ minHeight: '100vh' }}>
+                        <div className='bg-dark d-flex flex-column justify-content-center ' style={{ minHeight: '65vh' }}>
                             <div className=" text-white p-3">
                                 <div className='text-center h2'>{props.title}</div>
                                 <div className='text-center p-3 fs-4'>
@@ -33,7 +33,7 @@ const SeconComp = () => {
             <>
                 <div className="row">
                     <div className="col-12  col-md-6">
-                        <div className='bg-dark d-flex flex-column justify-content-center ' style={{ minHeight: '100vh' }}>
+                        <div className='bg-dark d-flex flex-column justify-content-center ' style={{ minHeight: '65vh' }}>
                             <div className=" text-white p-3">
                                 <div className='text-center h2'>{props.title}</div>
                                 <div className='text-center p-3 fs-4'>

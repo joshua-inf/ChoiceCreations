@@ -3,7 +3,7 @@ import image from '../../images/9019808.jpg'
 const FirstComp = () => {
     return (
         <>
-            <div style={{minHeight:'100vh'}}>
+            <div style={{minHeight:'70vh'}}>
                 <div className="p-3 text-white">
                     <div className="">
                         <div className="row" style={{ paddingInline: "50px" }}>
