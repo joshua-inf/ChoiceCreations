@@ -1,7 +1,6 @@
 {
   "name": "choicecreationsltd",
   "version": "0.1.0",
-  "homepage": "dynamic-blancmange-ef3dd7.netlify.app/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
