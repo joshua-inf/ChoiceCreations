@@ -20,7 +20,7 @@ import Footer from "./Components/N/footer";
 import Renderer from "./Renderer";
 
 const App = () => {
-  const [ready, setReady] = useState(false)
+  const [ready, setReady] = useState(true)
   const [navs, setNavs] = useState(false)
   const [days, setDays] = useState();
   const [hours, setHours] = useState();

@@ -30,8 +30,8 @@ window.addEventListener('scroll', changebackground);
             <div className='links d-none d-lg-block'>
                 <Link to='/'>Home</Link>
                 <Link to='/WhatWeDo'>What We Do</Link>
-                <Link>Our Portfolio</Link>
-                <Link>Our Products</Link>
+                {/* <Link>Our Portfolio</Link>
+                <Link>Our Products</Link> */}
                 <Link to='/ContactUs'>Contact Us</Link>
             </div>
         </div>
