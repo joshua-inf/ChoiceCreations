@@ -9,7 +9,7 @@ import WhatWeDoPage from './Components/Whatwedo';
 const Renderer = () => {
     return (
         <>
-        <BrowserRouter basename=''>
+        <BrowserRouter>
         <div className="bg-dark">
           <Nav />
           <Routes>
