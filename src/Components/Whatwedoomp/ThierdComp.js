@@ -1,3 +1,5 @@
+import { Reveal } from "../componentsmotion/Reveal"
+
 const ThirdComp = () => {
     const Comp = () => {
         return (
@@ -14,30 +16,32 @@ const ThirdComp = () => {
         <>
             <div style={{ paddingBlock:'50px' }}>
                 <div className="text-white p-3 py-5">
-                    <div className="text-center h2">Trusted by many.</div>
-                    <div className="text-center fw-5">we partner with big and small</div>
-                    <div>
-                        <div className="row">
-                            <div className="col-1"></div>
-                            <div className="col-10">
-                                <div className="row">
-                                    <Comp/>
-                                    <Comp/>
-                                    <Comp/>
-                                    <Comp/>
-                                    <Comp/>
-                                    <Comp/>
-                                    <Comp/>
-                                    <Comp/>
-                                    <Comp/>
-                                    <Comp/>
-                                    <Comp/>
-                                    <Comp/>
+                    <Reveal>
+                        <div className="text-center h2">Trusted by many.</div>
+                        <div className="text-center fw-5">we partner with big and small</div>
+                        <div>
+                            <div className="row">
+                                <div className="col-1"></div>
+                                <div className="col-10">
+                                    <div className="row">
+                                        <Comp/>
+                                        <Comp/>
+                                        <Comp/>
+                                        <Comp/>
+                                        <Comp/>
+                                        <Comp/>
+                                        <Comp/>
+                                        <Comp/>
+                                        <Comp/>
+                                        <Comp/>
+                                        <Comp/>
+                                        <Comp/>
+                                    </div>
                                 </div>
+                                <div className="col-1"></div>
                             </div>
-                            <div className="col-1"></div>
                         </div>
-                    </div>
+                    </Reveal>
                 </div>
             </div>
         </>

@@ -43,7 +43,7 @@ const Home = () => {
                                 transition={{ duration: 1 }}
                                 >
                                     <div className='px-5'>
-                                        <div style={{}} className='display-1 d-flex fw-bold'>
+                                        <div style={{}} className='display-2 d-flex fw-bold'>
                                             <div>
                                                 <div className='d-flex m-0 p-0 flex-column'>
                                                     <div className='d-flex'>
@@ -58,8 +58,8 @@ const Home = () => {
                                             </div>
                                         </div>
                                         <div>
-                                            <div style={{ width: '' }} className=''>
-                                                <p className='fs-5 text-white '>
+                                            <div style={{ fontSize:'14px' }} className=''>
+                                                <p className=' text-white '>
                                                     We partner with impactful brands to generate meaningful results
                                                     while uplifting your mission.
                                                     The digital experiences we create are engaging, empowered by strategy, and technically sound.

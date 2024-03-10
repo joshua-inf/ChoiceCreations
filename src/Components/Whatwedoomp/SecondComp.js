@@ -3,6 +3,7 @@ import image1 from '../../images/sssssss.png'
 import image2 from '../../images/images1.png'
 import image3 from '../../images/images2.png'
 import image4 from '../../images/modern-manufacturing-equipm.jpg'
+import { Reveal } from '../componentsmotion/Reveal'
 
 const SeconComp = () => {
     const Comp = (props) => {
@@ -60,54 +61,56 @@ const SeconComp = () => {
     return (
         <>
             <div style={{ minHeight: '100vh' }}>
-                <div style={{ gap: '20px' }} className="p-3 d-flex flex-column bg-white">
-                    <Comp
-                        title='CREATIVE DEISGNS'
-                        image={image}
+                <Reveal>
+                    <div style={{ gap: '20px' }} className="p-3 d-flex flex-column bg-white">
+                        <Comp
+                            title='CREATIVE DEISGNS'
+                            image={image}
+                            text='
+                        At the heart of a distinctive brand is its design DNA which is reflected in its
+                        appearance, both in digital and printed form, creating recognition, loyalty and
+                        value for its customers.
+                        '
+                        />
+                        <Comp2
+                        title='BRANDING & PRINTING'
+                        image={image4}
                         text='
-                    At the heart of a distinctive brand is its design DNA which is reflected in its
-                    appearance, both in digital and printed form, creating recognition, loyalty and
-                    value for its customers.
-                    '
-                    />
-                    <Comp2
-                    title='BRANDING & PRINTING'
-                    image={image4}
-                    text='
-                    Understanding client’s goals is step one. Having the ability to come alongside and
-                    help a brand tell their story, through thought-evoking colors, meaningful design,
-                    and then seeing that brand come to life– in print and online– is a rewarding step
-                    in the marketing journey
-                    '
-                    />
-                    <Comp
-                    title='DIGITAL MARKETING'
-                    image={image3}
-                    text='
-                    Creating a strategy that encompasses all corners of the web including social,
-                    search, and local is a key component in a business’s plan for success. In order
-                    to create a lasting impression, no detail should be left untouched
-                    '
-                    />
-                    <Comp2
-                    title='PHOTO & VIDEOGRAPHY'
-                    image={image2}
-                    text='
-                    The nature of photos and videos make it one of the most impactful tools for lead
-                                        generation. In seconds, a business can make a first impression, set
-                                        themselves apart from competitors, and establish a connection.
-                    '
-                    />
-                    <Comp
-                    title='WEB DEVELOPMENT'
-                    image={image1}
-                    text='
-                    "Design isn’t just about proportions, layouts and how information flows. It’s
-                                        about creating an experience for people to fall in love with.”
-                    '
-                    />
-                   
-                </div>
+                        Understanding client’s goals is step one. Having the ability to come alongside and
+                        help a brand tell their story, through thought-evoking colors, meaningful design,
+                        and then seeing that brand come to life– in print and online– is a rewarding step
+                        in the marketing journey
+                        '
+                        />
+                        <Comp
+                        title='DIGITAL MARKETING'
+                        image={image3}
+                        text='
+                        Creating a strategy that encompasses all corners of the web including social,
+                        search, and local is a key component in a business’s plan for success. In order
+                        to create a lasting impression, no detail should be left untouched
+                        '
+                        />
+                        <Comp2
+                        title='PHOTO & VIDEOGRAPHY'
+                        image={image2}
+                        text='
+                        The nature of photos and videos make it one of the most impactful tools for lead
+                                            generation. In seconds, a business can make a first impression, set
+                                            themselves apart from competitors, and establish a connection.
+                        '
+                        />
+                        <Comp
+                        title='WEB DEVELOPMENT'
+                        image={image1}
+                        text='
+                        "Design isn’t just about proportions, layouts and how information flows. It’s
+                                            about creating an experience for people to fall in love with.”
+                        '
+                        />
+                    
+                    </div>
+                </Reveal>
             </div>
         </>
     )

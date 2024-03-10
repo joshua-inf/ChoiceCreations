@@ -1,15 +1,18 @@
+import { Reveal } from "../componentsmotion/Reveal"
+
 const SecondComp = () => {
     return (
         <>
             <div style={{}}>
                 <div className="p-3 text-white">
                     <div className="row">
-                        <div className="row" style={{paddingInline:"50px"}}>
+                        <Reveal>
+                            <div className="row" style={{ paddingInline: "50px", fontSize: '14px' }}>
                                 <div className="col-12 col-md-6">
                                     <div>
                                         <div className="display-5 mb-3 fw-bold">OUR VISION, MISSION AND VALUES</div>
 
-                                        <div>
+                                        <div >
                                             <p>
                                                 <span className="fw-bold">OUR VISION: </span>
                                                 To be recognized for our contribution to the digital econo-
@@ -60,21 +63,23 @@ const SecondComp = () => {
                                 </div>
                                 <div className="col-12 col-md-6">
                                     <div>
-                                        <div className="display-5 mb-3 fw-bold">WHY WORK WITH US</div>
-                                        <div>
-                                            <p>
-                                                The core team at Choice Creations has a strong record of
-                                                accomplishments in business management. Our CEO has
-                                                10years experience in creative services with large corporate
-                                                companies and was the Creative Advisor of a large interna-
-                                                tional group. Choice Creations managing partners headed
-                                                client services and business development within different
-                                                organizations across multiple verticals. We will employ this
-                                                collective hands-on experience to help your business grow
-                                                and offer advice on how our clients can best achieve their
-                                                goals.
-                                            </p>
-
+                                            <div className="display-5 mb-3 fw-bold">WHY WORK WITH US</div>
+                                            <div>
+                                        <Reveal>
+                                                <p>
+                                                    The core team at Choice Creations has a strong record of
+                                                    accomplishments in business management. Our CEO has
+                                                    10years experience in creative services with large corporate
+                                                    companies and was the Creative Advisor of a large interna-
+                                                    tional group. Choice Creations managing partners headed
+                                                    client services and business development within different
+                                                    organizations across multiple verticals. We will employ this
+                                                    collective hands-on experience to help your business grow
+                                                    and offer advice on how our clients can best achieve their
+                                                    goals.
+                                                </p>
+                                        </Reveal>
+                                        <Reveal>
                                             <h4 className="mt-5">SENSE OF PURPOSE</h4>
 
                                             <p>
@@ -87,6 +92,8 @@ const SecondComp = () => {
                                                 leads to productivity, and the prime resolve will remain to
                                                 help your business grow.
                                             </p>
+                                        </Reveal>
+                                        <Reveal>
                                             <h4 className="mt-5">PROXIMITY AND TRUST</h4>
                                             <p>
                                                 Our clients will witness an informal management style that
@@ -98,13 +105,16 @@ const SecondComp = () => {
                                                 believe we gain our clients’ confidence by first delivering on
                                                 our promise through planning and diligent execution.
                                             </p>
-                                        </div>
+
+                                        </Reveal>
                                     </div>
                                 </div>
-                        </div>
+                            </div>
                     </div>
-                </div>
+                </Reveal>
             </div>
+        </div >
+            </div >
         </>
     )
 }
