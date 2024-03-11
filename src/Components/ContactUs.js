@@ -1,6 +1,7 @@
 import image from '../images/contact-us_36325-2135.webp'
 import { MdPhoneInTalk, MdOutlineLocationOn, MdEmail } from 'react-icons/md'
 import { motion } from "framer-motion"
+import { Reveal } from './componentsmotion/Reveal'
 const Contactus = () => {
     const ContactComp = (props) => {
         return (
@@ -23,16 +24,15 @@ const Contactus = () => {
     }
     return (
         <>
-            <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 2 }}
-            >
-                <div>
-                    <div style={{ minHeight: '100vh' }}>
-                        <div style={{ height: '300px', background: `url(${image}) no-repeat center`, backgroundSize: 'cover' }}>
-                        </div>
-                        <div style={{ minHeight: '100vh' }} className='text-white  py-5'>
+
+            <div>
+                <div style={{ minHeight: '100vh' }}>
+                    <div style={{ height: '300px', background: `url(${image}) no-repeat center`, backgroundSize: 'cover' }}>
+                    </div>
+
+                    <div style={{ minHeight: '100vh' }} className='text-white  py-5'>
+                        <Reveal>
+
                             <div className='text-center' >
                                 <div className='text-center'>
                                     <h3>Contact Us</h3>
@@ -46,6 +46,7 @@ const Contactus = () => {
                             <div className='p-3 mt-5'>
                                 <div className='row'>
                                     <div className='col-1'></div>
+
                                     <div className='col-10'>
                                         <div className='row'>
                                             <div className='col-md-3 col-12'>
@@ -108,19 +109,19 @@ const Contactus = () => {
 
                                     <div className='col-1'></div>
                                 </div>
+
                             </div>
-                        </div>
-                        <div >
-                            <div className='p-3'>
-                                <iframe width="100%" style={{ borderRadius: '10px', height: "40vh" }} frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=-15.862038,%2027.764519+(Choice%20Creations%20Ltd)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
-                                    <a href="https://www.maps.ie/population/">Population Estimator map</a>
-                                </iframe>
-                            </div>
+                        </Reveal>
+                    </div>
+                    <div >
+                        <div className='p-3'>
+                            <iframe width="100%" style={{ borderRadius: '10px', height: "40vh" }} frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=-15.862038,%2027.764519+(Choice%20Creations%20Ltd)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                                <a href="https://www.maps.ie/population/">Population Estimator map</a>
+                            </iframe>
                         </div>
                     </div>
                 </div>
-
-            </motion.div>
+            </div>
         </>
     )
 }

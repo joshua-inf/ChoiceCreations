@@ -4,21 +4,23 @@ import Footer from './Components/N/footer';
 import Nav from './Components/N/Navbar';
 import Contactus from './Components/ContactUs';
 import WhatWeDoPage from './Components/Whatwedo';
-import DefautPage from './Components/N/DefautPage.js';
+import DefautPages from './Components/N/DefautPages';
+import { ScrollToTop } from './Components/componentsmotion/ScrollToTop';
 
 
 const Renderer = () => {
   return (
     <>
       <BrowserRouter>
+      <ScrollToTop/>
         <div className="bg-dark">
           <Nav />
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/ContactUs' element={<Contactus />} />
             <Route path='/WhatWeDo' element={<WhatWeDoPage />} />
-            <Route path='/OurProducts' element={<DefautPage />} />
-            <Route path='/OurPortfolio' element={<DefautPage />} />
+            <Route path='/OurProducts' element={<DefautPages />} />
+            <Route path='/OurPortfolio' element={<DefautPages />} />
           </Routes>
           <Footer />
         </div>
