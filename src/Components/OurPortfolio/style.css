@@ -1,0 +1,8 @@
+.imagecont:hover  {
+    opacity: 0.6;
+    transition: 0.5s all ease;
+}
+
+.imagecont {
+    transition: 0.5s all ease;
+}
