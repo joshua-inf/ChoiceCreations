@@ -58,7 +58,7 @@ const Home = () => {
                                             </div>
                                         </div>
                                         <div>
-                                            <div style={{ fontSize:'14px' }} className=''>
+                                            <div style={{ fontSize:'20px' }} className=''>
                                                 <p className=' text-white '>
                                                     We partner with impactful brands to generate meaningful results
                                                     while uplifting your mission.

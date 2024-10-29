@@ -7,8 +7,8 @@ const SecondComp = () => {
                 <div className="p-3 text-white">
                     <div className="row">
                         <Reveal>
-                            <div className="row" style={{ paddingInline: "50px", fontSize: '14px' }}>
-                                <div className="col-12 col-md-6">
+                            <div className="row" style={{ paddingInline: "50px", fontSize: '14px',textJustify:'iner-word', textAlign:'justify' }}>
+                                <div className="col-12 px-5 col-md-6">
                                     <div>
                                         <div className="display-5 mb-3 fw-bold">OUR VISION, MISSION AND VALUES</div>
 
@@ -36,11 +36,11 @@ const SecondComp = () => {
                                                 To live up to our values, Choice Creations demonstrate a set of behavioral
                                                 attributes (FOCUS):
 
-                                                <ul className="mt-3 m-0 p-0 h5" style={{ listStyle: 'none', color: "magenta" }}>
-                                                    <li><span>F</span>=Fresh</li>
-                                                    <li><span>O</span>=Organized</li>
-                                                    <li><span>C</span>=Creative</li>
-                                                    <li><span>U</span>=Upbeat</li>
+                                                <ul className="mt-3 m-0 p-0 fw-bolder fs-6" style={{ listStyle: 'none', color: "magenta", display:'flex', gap:10, flexWrap:'wrap' }}>
+                                                    <li><span>F</span>=Fresh</li>|
+                                                    <li><span>O</span>=Organized</li>|
+                                                    <li><span>C</span>=Creative</li>|
+                                                    <li><span>U</span>=Upbeat</li>|
                                                     <li><span>S</span>=Sincere</li>
                                                 </ul>
                                             </p>
@@ -61,7 +61,7 @@ const SecondComp = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-12 col-md-6">
+                                <div className="col-12 px-5  col-md-6">
                                     <div>
                                             <div className="display-5 mb-3 fw-bold">WHY WORK WITH US</div>
                                             <div>

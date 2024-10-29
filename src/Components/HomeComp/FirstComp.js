@@ -15,7 +15,7 @@ const FirstComp = () => {
                             <div className="row">
                                 <div className="col-12 col-md-6">
                                     <div className="display-3 mb-3 fw-bold">WHO WE ARE</div>
-                                    <div style={{fontSize:'14px'}}>
+                                    <div style={{fontSize:'14px', textJustify:'iner-word', textAlign:'justify'}}>
                                         <p>
                                             Choice Creations Limited is a focused, agile, and trustworthy creative agency that
                                             offers an extensive range of services to businesses and individuals. We are in love
