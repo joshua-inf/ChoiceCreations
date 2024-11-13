@@ -10,7 +10,7 @@ const SeconComp = () => {
         return (
             <>
                 <Reveal>
-                    <div className="row py-5" style={{minHeight:'90vh', alignContent:'center'}}>
+                    <div className="row py-5" style={{minHeight:'70vh', alignContent:'center'}}>
                         <div className="col-12 col-md-6">
                             <div className="" style={{ minHeight: '400px', background: `url(${props.image}) center`, backgroundSize: "cover" }}></div>
                         </div>
@@ -23,7 +23,7 @@ const SeconComp = () => {
                                             <p>
                                                 {props.text}
                                             </p>
-                                            <button className='btn btn-outline-danger rounded-0 btn-lg'>
+                                            <button className='btn btn-outline-danger rounded-5 btn-lg'>
                                                 Get started
                                             </button>
                                         </div>
@@ -40,7 +40,7 @@ const SeconComp = () => {
         return (
             <>
             <Reveal>
-                    <div className="row py-5" style={{minHeight:'90vh', alignContent:'center'}}>
+                    <div className="row py-5" style={{minHeight:'70vh', alignContent:'center'}}>
                         <div className="col-12 order-md-1 order-2 col-md-6">
                             <div className='d-flex flex-column justify-content-center' style={{  }}>
                                 <div className="text-white p-3">
@@ -49,7 +49,7 @@ const SeconComp = () => {
                                         <p>
                                             {props.text}
                                         </p>
-                                    <button className='btn btn-outline-danger rounded-0 btn-lg'>
+                                    <button className='btn btn-outline-danger rounded-5 shadow-lg shadow-danger  btn-lg'>
                                         Get started
                                     </button>
                                     </div>

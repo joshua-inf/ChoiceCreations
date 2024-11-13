@@ -39,3 +39,37 @@
 
 
 
+
+/* Custom shadow classes with specific colors */
+
+.shadow-primary {
+  --bs-shadow-rgb: var(--bs-primary-rgb);
+}
+
+.shadow-secondary {
+  --bs-shadow-rgb: var(--bs-secondary-rgb);
+}
+
+.shadow-success {
+  --bs-shadow-rgb: var(--bs-success-rgb);
+}
+
+.shadow-info {
+  --bs-shadow-rgb: var(--bs-info-rgb);
+}
+
+.shadow-warning {
+  --bs-shadow-rgb: var(--bs-warning-rgb);
+}
+
+.shadow-danger {
+  --bs-shadow-rgb: var(--bs-danger-rgb);
+}
+
+.shadow-light {
+  --bs-shadow-rgb: var(--bs-light-rgb);
+}
+
+.shadow-dark {
+  --bs-shadow-rgb: var(--bs-dark-rgb);
+}
