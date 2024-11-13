@@ -9,49 +9,58 @@ const SeconComp = () => {
     const Comp = (props) => {
         return (
             <>
-                <div className="row">
-                    <div className="col-12 d-none d-md-block col-md-6">
-                        <div className="bg-light" style={{ height: '100%', background: `url(${props.image}) center`, backgroundSize: "cover" }}></div>
-                    </div>
-                    <div className="col-12  col-md-6">
-                        <div className='bg-dark d-flex flex-column justify-content-center ' style={{ minHeight: '60vh' }}>
-                            <div className='' style={{position:'relative'}}>
-                                <div className='' style={{position:'absolute',top:'0', bottom:'0', right:'0', left:'0', backgroundSize:'cover', height:'100%', width:'100%'}}></div>
-                                <div style={{}} className=" text-white p-3">
-                                    <div className='text-center h2'>{props.title}</div>
-                                    <div className='text-center p-3 fs-4'>
-                                        <p>
-                                            {props.text}
-                                        </p>
+                <Reveal>
+                    <div className="row py-5" style={{minHeight:'90vh', alignContent:'center'}}>
+                        <div className="col-12 col-md-6">
+                            <div className="" style={{ minHeight: '400px', background: `url(${props.image}) center`, backgroundSize: "cover" }}></div>
+                        </div>
+                        <div className="col-12  col-md-6">
+                            <div className=' d-flex flex-column justify-content-center ' style={{}}>
+                                <div className='' style={{ position: 'relative' }}>
+                                    <div style={{}} className=" text-white p-3">
+                                        <div className='text-center h2'>{props.title}</div>
+                                        <div className='text-center p-3 fs-4'>
+                                            <p>
+                                                {props.text}
+                                            </p>
+                                            <button className='btn btn-outline-danger rounded-0 btn-lg'>
+                                                Get started
+                                            </button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </Reveal>
             </>
         )
     }
     const Comp2 = (props) => {
         return (
             <>
-                <div className="row">
-                    <div className="col-12  col-md-6">
-                        <div className='bg-dark d-flex flex-column justify-content-center' style={{ minHeight: '65vh' }}>
-                            <div className="text-white p-3">
-                                <div className='text-center h2'>{props.title}</div>
-                                <div className='text-center p-3 fs-4'>
-                                    <p>
-                                        {props.text}
-                                    </p>
+            <Reveal>
+                    <div className="row py-5" style={{minHeight:'90vh', alignContent:'center'}}>
+                        <div className="col-12 order-md-1 order-2 col-md-6">
+                            <div className='d-flex flex-column justify-content-center' style={{  }}>
+                                <div className="text-white p-3">
+                                    <div className='text-center h2'>{props.title}</div>
+                                    <div className='text-center p-3 fs-4'>
+                                        <p>
+                                            {props.text}
+                                        </p>
+                                    <button className='btn btn-outline-danger rounded-0 btn-lg'>
+                                        Get started
+                                    </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        <div className="col-12 order-md-1 col-md-6">
+                            <div className="" style={{ minHeight: '400px', background: `url(${props.image}) center`, backgroundSize: "cover" }}></div>
+                        </div>
                     </div>
-                    <div className="col-12 d-none d-md-block col-md-6">
-                        <div className="bg-light" style={{ height: '100%', background: `url(${props.image}) center`, backgroundSize: "cover" }}></div>
-                    </div>
-                </div>
+            </Reveal>
             </>
         )
     }
@@ -62,7 +71,7 @@ const SeconComp = () => {
         <>
             <div style={{ minHeight: '100vh' }}>
                 <Reveal>
-                    <div style={{ gap: '20px' }} className="p-3 d-flex flex-column bg-white">
+                    <div style={{ gap: '20px' }} className="p-3 d-flex flex-column">
                         <Comp
                             title='CREATIVE DEISGNS'
                             image={image}

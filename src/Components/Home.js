@@ -59,7 +59,7 @@ const Home = () => {
                                         </div>
                                         <div>
                                             <div style={{ fontSize:'20px' }} className=''>
-                                                <p className=' text-white '>
+                                                <p className=' text-white  '>
                                                     We partner with impactful brands to generate meaningful results
                                                     while uplifting your mission.
                                                     The digital experiences we create are engaging, empowered by strategy, and technically sound.
